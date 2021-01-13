@@ -60,3 +60,20 @@ print(all_kids)
 print("----------------------------------")
 all_kids.append('omri')
 print(all_kids)
+
+print("----------------------------------")
+kids_amount = len(all_kids)
+print(kids_amount)
+
+print("----------------------------------")
+
+if kids_amount > 4:
+    print('too many kids')
+elif kids_amount == 4:
+    print('who are all these kids??????')
+else:
+    print('i have no idea')
+
+print("----------------------------------")
+
+print('end')
