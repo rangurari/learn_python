@@ -56,3 +56,7 @@ girls = ['sahar']
 boys = ['ran' , 'amit']
 all_kids = girls + boys
 print(all_kids)
+
+print("----------------------------------")
+all_kids.append('omri')
+print(all_kids)
